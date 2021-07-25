@@ -1,0 +1,215 @@
+@keyframes revolve {
+    0%  {transform: rotateY(0deg)}
+    50% {transform: rotateY(180deg)}
+    100% {transform: rotateY(360deg)}
+    
+  }
+body
+{
+    background: #1B1A18;
+    background-image: url(/images/background.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 900px;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav
+{
+    padding: 0px 25px;
+    margin: 10px 40px;
+}
+.nav-list
+{
+    padding: 5px 25px;
+    margin: 0px 20px;
+}
+.nav-link
+{
+    padding: 0px;
+    margin:0px;
+    color: white;
+}
+.nav-link:hover
+{
+    color: #454a50;
+}
+.container-fluid
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.heading
+{
+    width: fit-content;
+    margin: 40px 100px;
+    color: white;
+}
+.heading h5
+{
+    margin: 30px 0px;
+}
+.heading h1
+{
+    font-size: 65px;
+}
+.box
+{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: 0px 10px;
+}
+.ad
+{
+    margin: 20px;
+    width: fit-content;
+    background: black;
+    border-radius: 8px;
+    box-shadow:0 0 10px white;
+}
+.mobile-app
+{
+    color: white;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.mobile-app h6
+{
+    color: #C34357;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 20px
+}
+.mobile-app p
+{
+    color: #605F59;
+    margin: 10px 0px;
+}
+.mobile-app span
+{
+    font-weight: bolder;
+    position: relative;
+    font-size: 20px;
+    color: #B7B8BB;
+    margin-top: 10px ;
+}
+.mobile-app span::before
+{
+    position: absolute;
+    content: "";
+    background-color: white;
+    padding: 2px 144px;
+    top: 45px;
+}
+.mobile-app span::after
+{
+    position: absolute;
+    content: "";
+    background-color: white;
+    padding: 2px 144px;
+    top: 55px;
+    left: 0px;    
+}
+.rightbox
+{
+    margin-right: 40px;
+}
+.picture-box 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: fit-content;
+}
+.img-carousel
+{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.headphone-images
+{
+    height: 450px;
+    width: 400px;
+    margin-right: 10px;
+    
+}
+.headphones
+{
+    width: 100%;
+    height: 100%;
+    position:relative;
+    overflow: hidden;
+    animation: revolve 6s infinite;
+}
+.icons
+{
+    display: flex;
+    flex-direction: row;
+}
+.icons img
+{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+.text-box
+{
+    color: white;
+    width: 400px;
+    height: fit-content;
+    margin-top: 20px;
+}
+.header-box
+{
+    width:  100%;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.heading-carousel
+{
+    position: relative;
+    overflow: hidden;
+}
+.header
+{
+    color: thistle;
+    text-align: center;
+}
+.description-box
+{
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.description-carousel
+{
+    position: relative;
+    overflow: hidden;
+}
+.description
+{
+    font-size: 14px;
+}
+
+
+
